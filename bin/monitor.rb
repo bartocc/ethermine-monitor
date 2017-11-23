@@ -9,7 +9,7 @@ WORKERS_COUNT = 2
 MINER = '1dE373F9C4C89FC061eA7a2a88d34721A83965a4'.freeze
 
 class EthminerClient
-  SCHEME = 'https'
+  SCHEME = 'https'.freeze
   HOST = 'api.ethermine.org'.freeze
 
   def self.url(path)
